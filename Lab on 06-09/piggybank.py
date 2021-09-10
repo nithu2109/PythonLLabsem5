@@ -1,0 +1,5 @@
+rs200=int(input("Enter Number of 200 coins"))
+rs100=int(input("Enter Number of 100 coins"))
+rs50=int(input("Enter Number of 50 coins"))
+rs10=int(input("Enter Number of 10 coins"))
+print("Total Amount in Piggy Bank :",200*rs200+100*rs100+rs50*50+10*rs10)
