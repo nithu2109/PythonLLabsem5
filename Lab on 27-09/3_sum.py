@@ -18,8 +18,16 @@ def Sum(matrix):
                 lower_sum += matrix[i][j]
     print("Lower sum is ", lower_sum)
  
-matrix = [[ 6, 5, 4 ],
-       [ 1, 2, 5 ],
-       [ 7, 9, 7 ]]
+       
+n=int(input("Enter the value of n"))
+l=[]
+for i in range(0,n):
+ il=[]
+ for j in range(0,n):
+  a=int(input("Enter the element:"))
+  il.append(a)
+ l.append(il)
+ 
+print("The matrix in list of list format",l)
 
-Sum(matrix)
+Sum(l)
